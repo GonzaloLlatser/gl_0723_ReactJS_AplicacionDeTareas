@@ -1,10 +1,17 @@
 import React, { useState } from "react";
 import TareaFormulario from "./TareaFormulario";
-import '../hojas-de-estilo/ListaDeTareas.css'
+import Tarea from "./Tarea";
+import '../hojas-de-estilo/ListaDeTareas.css';
+
 
 function ListaDeTareas() {
 
-    cosnt[tareas, setTareas] = useState([]);
+    const [tareas, setTareas] = useState([]);
+
+    const agregarTarea = tarea => {
+        console.log("Tarea agregada");
+        console.log(tarea);
+    }
 
     return (
         <>
