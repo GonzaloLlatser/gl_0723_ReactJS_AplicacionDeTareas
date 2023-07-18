@@ -19,7 +19,7 @@ function TareaFormulario(props) {
             completada: false
         }
 
-    console.log(tareaNueva);
+        props.onSubmit(tareaNueva);
     }
 
     return (
