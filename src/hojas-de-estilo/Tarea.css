@@ -11,7 +11,7 @@
     border: 1px solid white;
     cursor: pointer;
 }
-/* TGRACIAS GONZALO ODOGRACIAS GONZALO e TODO  */ TODO
+/* Tarea */
 
 .tarea-texto {
     width: 100%;
@@ -27,4 +27,10 @@
     width: 25px;
     height: 25px;
     margin: 5px;
+}
+/* Tarea completada */
+
+.tarea-contenedor.completada{
+    background-color: #5a01a7;
+    text-decoration: line-through;
 }
