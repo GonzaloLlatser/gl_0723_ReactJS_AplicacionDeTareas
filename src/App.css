@@ -6,6 +6,8 @@
 
 html,
 body {
+  height: 100%;
+  width: 100%;
   color: white;
   background-color: #1b1b32;
   font-family: lato, sans-serif;
